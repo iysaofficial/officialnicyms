@@ -70,6 +70,7 @@ const Detail5 = () => {
                                     yang kali ini diselenggarakan oleh UIN Sunan Gunung Djati.
 
                                 </p>
+                                <a>Sumber : <a href="https://www.unila.ac.id/tim-unila-raih-medali-perak-pada-international-invention-competition-for-young-moeslem-scientists-iicyms-2022/" target="_blank">Klik Disini</a></a>
                             </div>
                         </div>
                     </div>

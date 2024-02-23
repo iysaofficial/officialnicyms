@@ -56,6 +56,7 @@ const Detail6 = () => {
                                 Meraih medali emas di NICYMS dan IICYMS merupakan bukti kemampuan dan dedikasi luar biasa dari Riski Aprianto, Indah Marita Dewi, Diva Xafiera Barlianto, dan Muhammad Adam Zidane. Prestasi mereka tidak hanya membawa kebanggaan bagi Universitas Diponegoro tetapi juga menginspirasi para ilmuwan dan penemu muda lainnya untuk mengeksplorasi solusi inovatif dan berkontribusi pada pengembangan komunitas ilmiah.
 
                             </p>
+                            <a>Sumber : <a href="https://www.unila.ac.id/tim-unila-raih-medali-perak-pada-international-invention-competition-for-young-moeslem-scientists-iicyms-2022/" target="_blank">Klik Disini</a></a>
                         </div>
                     </div>
                 </div>

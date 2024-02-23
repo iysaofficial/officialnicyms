@@ -83,7 +83,7 @@ const Detail1 = () => {
                             said. Author: Ananda Wildhan Wahyu Pratama Editor:
                             Feri Fenoria Rifai
                         </p>
-                        <a>Source : <a href="https://unair.ac.id/en/unair-students-win-silver-medal-at-international-invention-competition-for-young-moslem-scientists-iicyms-2022/" target="_blank"> Click Here</a></a>
+                        <a><Sumber></Sumber> : <a href="https://unair.ac.id/en/unair-students-win-silver-medal-at-international-invention-competition-for-young-moslem-scientists-iicyms-2022/" target="_blank"> Klik Disini</a></a>
                         </div>
                         {/* <!-- <div id="google.com/Map"></div> --> */}
                     </div>

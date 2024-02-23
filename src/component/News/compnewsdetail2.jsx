@@ -72,7 +72,7 @@ const Detail2 = () => {
                                 to future development. Overall we are very happy because we managed to get a silver medal and get an
                                 unforgettable experience,“ she concluded.
                             </p>
-                            <a>Source : <a href="https://industri.ub.ac.id/ub-student-team-won-award-at-the-2022-iicyms-international-competition/#:~:text=A%20collaboration%20of%20students%20team,at%20the%202022%20International%20Invention" target="_blank"> Click Here</a></a>
+                            <a>Sumber : <a href="https://industri.ub.ac.id/ub-student-team-won-award-at-the-2022-iicyms-international-competition/#:~:text=A%20collaboration%20of%20students%20team,at%20the%202022%20International%20Invention" target="_blank"> Klik Disini</a></a>
 
                             </div>
                         </div>

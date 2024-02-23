@@ -97,7 +97,7 @@ const Detail3 = () => {
                                     juga untuk dosen pembimbing, dan teman-teman satu
                                     tim,” ujar Indah. [Humas/Rilis]
                                 </p>
-                                <a>Source : <a href="https://www.unila.ac.id/tim-unila-raih-medali-perak-pada-international-invention-competition-for-young-moeslem-scientists-iicyms-2022/" target="_blank"> Click Here</a></a>
+                                <a>Sumber : <a href="https://www.unila.ac.id/tim-unila-raih-medali-perak-pada-international-invention-competition-for-young-moeslem-scientists-iicyms-2022/" target="_blank">Klik Disini</a></a>
                             </div>
                         </div>
                     </div>
