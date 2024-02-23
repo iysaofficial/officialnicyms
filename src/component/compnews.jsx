@@ -11,7 +11,7 @@ const Compnews = () => {
                             <h1 class="page-title">Berita</h1>
                             <ul>
                             <li>
-                                <a class="active" href="/">Home</a>
+                                <a class="active" href="/">Utama</a>
                             </li>
                             <li>Berita</li>
                             </ul>
@@ -24,7 +24,7 @@ const Compnews = () => {
         <section>
             <div class="footer-top">
                 <div class="container">
-                    <h2 class="text-center mt-50" >News 2022
+                    <h2 class="text-center mt-50" >Berita 2022
                     </h2>
 
                     <div class="row">
@@ -54,7 +54,7 @@ const Compnews = () => {
                                 <a href="/news3" class="btn btn-primary">View</a>
                             </div>
                         </div>
-                        <h2 class="text-center">News 2023
+                        <h2 class="text-center">Berita 2023
                         </h2>
             
                         <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">

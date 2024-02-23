@@ -8,12 +8,12 @@ const Detail3 = () => {
             <div class="container">
                 <div class="row">
                 <div class="col-md-12 text-center">
-                    <h1 class="page-title">News DETAILS</h1>
+                    <h1 class="page-title">Detail Berita</h1>
                     <ul>
                     <li>
-                        <a class="active" href="/">Home</a>
+                        <a class="active" href="/">Utama</a>
                     </li>
-                    <li>News Details</li>
+                    <li>Detail Berita</li>
                     </ul>
                 </div>
                 </div>
