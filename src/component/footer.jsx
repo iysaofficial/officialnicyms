@@ -14,7 +14,7 @@ const Footer = () => {
                     <div class="row">
                     <div class="col-lg-3 col-md-12">
                         <div class="about-widget">
-                        <img src="./public/assets/logo/nicyms2.png" alt="Footer Logo" />
+                        <img src="./assets/logo/nicyms2.png" alt="Footer Logo" />
                         <p>NATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTIST (NICYMS),
                             program kerjasama Indonesian Young Scientist Association (IYSA) dengan Universitas Komputer Indonesia (UNIKOM)</p>
                         </div>

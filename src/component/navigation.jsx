@@ -52,7 +52,7 @@ import "../assets/css/styles.css"
                     <div className="row">
                         <div className="col-lg-4 col-md-12">
                             <div className="logo-area">
-                                <a href="index.html"><img src="./public/assets/logo/nicyms2.png" alt="logo" /></a>
+                                <a href="index.html"><img src="./assets/logo/nicyms2.png" alt="logo" /></a>
                             </div>
                         </div>
                         <div className="col-lg-8 col-md-12">

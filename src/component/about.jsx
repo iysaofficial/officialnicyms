@@ -26,18 +26,11 @@ function About() {
                         bagi pelajar dan mahasiswa.
                     </p>
                     <div class="row about-signature">
-                        {/* <!-- <div class="col-md-6">
-                                <h4>Rashid Mahabub Shojib</h4>
-                                <span>Vice Chancellor (vc)</span>
-                                </div> --> */}
-                        {/* <!-- <div class="col-md-6 text-right">
-                                <img src="images/about/signature.png" alt="signature" />
-                                </div> --> */}
                     </div>
                     </div>
                     <div class="col-lg-5 col-md-12">
                     <div class="about-img rs-image-effect-shine">
-                        <img src="./public/assets/img/DSC0431.jpg" alt="" />
+                        <img src="./assets/img/DSC0431.jpg" alt="" />
                     </div>
                     </div>
                 </div>

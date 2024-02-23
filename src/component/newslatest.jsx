@@ -19,7 +19,7 @@ const Newslatest = () => {
                                         <div className="news-normal-block">
                                             <div className="news-img">
                                                 <a href="/news1">
-                                                    <img src="./public/assets/news/news1.jpeg" alt="" />
+                                                    <img src="./assets/news/news1.jpeg" alt="" />
                                                 </a>
                                             </div>
                                             <div className="news-date">
@@ -43,7 +43,7 @@ const Newslatest = () => {
                                         <div className="news-normal-block">
                                             <div className="news-img">
                                                 <a href="/news2">
-                                                    <img src="./public/assets/news/news2.jpg" alt="" />
+                                                    <img src="./assets/news/news2.jpg" alt="" />
                                                 </a>
                                             </div>
                                             <div className="news-date">
@@ -69,7 +69,7 @@ const Newslatest = () => {
                                         <div className="news-normal-block">
                                             <div className="news-img">
                                                 <a href="/news3">
-                                                    <img src="./public/assets/news/news3.jpeg" alt="" />
+                                                    <img src="./assets/news/news3.jpeg" alt="" />
                                                 </a>
                                             </div>
                                             <div className="news-date">
@@ -95,11 +95,6 @@ const Newslatest = () => {
                                 </div>
                             </div>
                             <div className="">
-                                {/* <div className="latest-news-nav">
-                                    <div><img src="./public/assets/img/luffy.jpg" alt="" /></div>
-                                    <div><img src="./public/assets/img/luffy.jpg" alt="" /></div>
-                                    <div><img src="./public/assets/img/luffy.jpg" alt="" /></div>
-                                </div> */}
                                 <div className="btn-more">
                                     <a href="/listnews">Load More</a>
                                 </div>

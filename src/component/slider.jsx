@@ -8,7 +8,7 @@ const Slider = () => {
                     {/* <div id="home-slider" className="rs-carousel owl-carousel" data-loop="true" data-items="4" data-margin="0"data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="1200" data-dots="false" data-nav="true"data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="true" data-mobile-device-dots="true"data-ipad-device="1" data-ipad-device-nav="true" data-ipad-device-dots="true" data-md-device="1" data-md-device-nav="true" data-md-device-dots="false"> */}
                         {/* <!-- Item 1 --> */}
                         <div className="item active">
-                            <img src="./public/assets/img/slide4.WebP" alt="Slide1" />
+                            <img src="./assets/img/slide4.WebP" alt="Slide1" />
                             <div className="slide-content">
                                 <div className="display-table">
                                     <div className="display-table-cell">
