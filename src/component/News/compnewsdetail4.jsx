@@ -11,7 +11,7 @@ const Detail4 = () => {
                         <h1 class="page-title">News DETAILS</h1>
                         <ul>
                             <li>
-                                <a class="active" href="index-2.html">Home</a>
+                                <a class="active" href="/">Home</a>
                             </li>
                             <li>News Details</li>
                         </ul>
@@ -29,7 +29,7 @@ const Detail4 = () => {
                 <div class="col-lg-8 col-md-12 mx-auto">
                     <div class="event-details-content">
                         <h3 class="event-title">
-                            <a href="events-details.html">Ciptakan Aplikasi untuk Pelajar Disabilitas, 2 Siswa Madrasah
+                            <a>Ciptakan Aplikasi untuk Pelajar Disabilitas, 2 Siswa Madrasah
                                 Raih Emas di Ajang IICYMS 2023</a>
                         </h3>
                         <div class="event-meta">
@@ -39,7 +39,7 @@ const Detail4 = () => {
                             </div>
                         </div>
                         <div class="event-img">
-                            <img src="images/blog/ciptakan-aplikasi-untuk-pelajar-disabilitas-2-siswa-madrasah-raih-emas-di-ajang-iicyms-2023-ajv.jpg"
+                            <img src="./assets/news/news5.jpg"
                                 alt="Event Details Images" />
                         </div>
                         <div class="event-desc">

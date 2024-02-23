@@ -62,7 +62,7 @@ const Compnews = () => {
                             <div class="card-news-body">
                                 <h5 class="card-news-title">Ciptakan Aplikasi untuk Pelajar Disabilitas, 2 Siswa Madrasah Raih Emas di Ajang IICYMS 2023</h5>
                                 <p class="card-text">Ciptakan Aplikasi untuk Pelajar Disabilitas, 2 Siswa Madrasah Raih Emas di Ajang IICYMS 2023 2 Siswa Madrasah Raih Emas di Ajang IICYMS 2023". Untuk selengkapnya kunjungi..</p>
-                                <a href="news-iicyms.html" class="btn btn-primary">View</a>
+                                <a href="/news4" class="btn btn-primary">View</a>
                             </div>
                         </div>
                         <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
@@ -70,7 +70,7 @@ const Compnews = () => {
                             <div class="card-news-body">
                                 <h5 class="card-news-title">Kisah Mahasiswa Unsoed Raih Medali Emas di IICYMS, Saat Usung Karya Degradasi Limbah Obat-obatan</h5>
                                 <p class="card-text">Kisah Mahasiswa Unsoed Raih Medali Emas di IICYMS, Saat Usung Karya Degradasi Limbah Obat-obatan...</p>
-                                <a href="news2.iicyms.html" class="btn btn-primary">View</a>
+                                <a href="/news5" class="btn btn-primary">View</a>
                             </div>
                         </div>
                         <div class="card-news mt-5 col-lg-3 col-md-12">
@@ -78,7 +78,7 @@ const Compnews = () => {
                             <div class="card-news-body">
                                 <h5 class="card-news-title">Chemistry Diponegoro Students Win Gold Medal at NICYMS & IICYMS with “Application of Natural Chemotherapeutic Agent Based on Caffeic Acid-Graphene Oxide of Coconut Shell Waste” Poster</h5>
                                 <p class="card-text">Fakultas Sains dan Teknologi (FST) UIN Sunan Gunung Djati Bandung bekerja sama dengan Universitas Muhammadiyah Bandung dan Indonesian Young Scientist Association (IYSA) menyelenggarakan kompetisi penemuan bertaraf internasional bertajuk International Invention Competition for Young Moslem Scientists (IICYMS), National Invention Competition for Young Moslem Scientists (NICYMS) yang dilakukan secara hybrid (online dan offline) dari Jumat-Minggu 10-12 Juni 2022...</p>
-                                <a href="newnicyms.html" class="btn btn-primary">View</a>
+                                <a href="/news6" class="btn btn-primary">View</a>
                             </div>
                         </div>
                     </div>

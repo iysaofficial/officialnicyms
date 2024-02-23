@@ -10,6 +10,9 @@ import Listnews from "./pages/news/listnews";
 import News1 from "./pages/news/news1";
 import News2 from "./pages/news/news2";
 import News3 from "./pages/news/news3";
+import News4 from "./pages/news/news4";
+import News5 from "./pages/news/news5";
+import News6 from "./pages/news/news6";
 
 // import ContactPage from "./pages/contactpages";
 // import Faq from "./pages/faq";
@@ -43,6 +46,18 @@ const router = createBrowserRouter([
   {
     path: "/news3",
     element: <News3 />
+  },
+  {
+    path: "/news4",
+    element: <News4 />
+  },
+  {
+    path: "/news5",
+    element: <News5 />
+  },
+  {
+    path: "/news6",
+    element: <News6 />
   }
 ]);
 

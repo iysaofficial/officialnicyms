@@ -11,7 +11,7 @@ const Detail5 = () => {
                             <h1 class="page-title">News DETAILS</h1>
                             <ul>
                                 <li>
-                                    <a class="active" href="index-2.html">Home</a>
+                                    <a class="active" href="/">Home</a>
                                 </li>
                                 <li>News Details</li>
                             </ul>
@@ -39,7 +39,7 @@ const Detail5 = () => {
                                 </div>
                             </div>
                             <div class="event-img">
-                                <img src="images/blog/yaa.jpg" alt="Event Details Images" />
+                                <img src="./assets/news/news7.jpg" alt="Event Details Images" />
                             </div>
                             <div class="event-desc">
                                 <p>

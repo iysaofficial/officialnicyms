@@ -39,7 +39,7 @@ const Detail1 = () => {
                         </div>
                         </div>
                         <div class="event-img">
-                        <img src="./public/assets/news/news1.jpeg" alt="Event Details Images" />
+                        <img src="./assets/news/news1.jpeg" alt="Event Details Images" />
                         </div>
                         <div class="event-desc">
                         <p>

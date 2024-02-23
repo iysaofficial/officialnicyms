@@ -29,7 +29,7 @@ const Detail6 = () => {
                 <div class="col-lg-8 col-md-12 mx-auto">
                     <div class="event-details-content">
                         <h3 class="event-title">
-                            <a href="events-details.html">Kisah Mahasiswa Unsoed Raih Medali Emas di IICYMS, Saat Usung
+                            <a>Kisah Mahasiswa Unsoed Raih Medali Emas di IICYMS, Saat Usung
                                 Karya Degradasi Limbah Obat-obatanz</a>
                         </h3>
                         <div class="event-meta">
@@ -39,7 +39,7 @@ const Detail6 = () => {
                             </div>
                         </div>
                         <div class="event-img">
-                            <img src="images/blog/Lomba-Poster.png" alt="Event Details Images" />
+                            <img src="./assets/news/news6.png" alt="Event Details Images" />
                         </div>
                         <div class="event-desc">
                             <p>
