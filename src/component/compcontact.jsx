@@ -11,7 +11,7 @@ const Compcontact = () => {
                             <h1 class="page-title">Kontak</h1>
                             <ul>
                             <li>
-                                <a class="active" href="/">Home</a>
+                                <a class="active" href="/">Utama</a>
                             </li>
                             <li>Kontak</li>
                             </ul>

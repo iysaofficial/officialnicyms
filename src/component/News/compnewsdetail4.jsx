@@ -71,7 +71,7 @@ const Detail4 = () => {
                                 Selain medali emas, tim MAN 4 Jakarta Selatan juga meraih penghargaan Special Awards
                                 dari Malaysia Young Scientist Organization (MYSO).
                             </p>
-                            <a>Sumber : <a href="https://www.unila.ac.id/tim-unila-raih-medali-perak-pada-international-invention-competition-for-young-moeslem-scientists-iicyms-2022/" target="_blank">Klik Disini</a></a>
+                            <a>Sumber : <a href="https://edukasi.sindonews.com/read/1110795/212/ciptakan-aplikasi-untuk-pelajar-disabilitas-2-siswa-madrasah-raih-emas-di-ajang-iicyms-2023-1685243108" target="_blank">Klik Disini</a></a>
                         </div>
                     </div>
                 </div>

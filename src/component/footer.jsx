@@ -32,7 +32,7 @@ const Footer = () => {
                             <div class="post-item">
                             <div class="post-desc">
                                 <h5 class="post-title">
-                                    <a href="mailto:iicmys.iysa@gmail.com">iicmys.iysa@gmail.com</a>
+                                    <a href="mailto:nicymsofficial@gmail.com">nicymsofficial@gmail.com</a>
                                 </h5>
                             </div>
                             </div>
@@ -47,30 +47,19 @@ const Footer = () => {
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12 ">
-                        <h5 class="footer-title2 ">Links</h5>
-                        <ul class="sitemap-widget2  ">
+                        <h5 class="footer-title2 ">Tautan Informasi</h5>
+                        <ul class="sitemap-widget2">
                         <li class="active">
                             <a href="/">
-                            <i class="fa fa-angle-right" aria-hidden="true"></i>Utama</a>
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>Utama
+                            </a>
                         </li>
-                        {/* <li>
-                            <a href>
-                            <i class="fa fa-angle-right" aria-hidden="true"></i>Tentang</a>
-                        </li> */}
-
                         <li>
                             <a href="/listnews"><i class="fa fa-angle-right" aria-hidden="true"></i>Berita</a>
                         </li>
-                        {/* <!-- <li>
-                            <a href="img2.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Gallery</a>
-                        </li> --> */}
                         <li>
                             <a href="/faq"><i class="fa fa-angle-right" aria-hidden="true"></i>FAQ</a>
                         </li>
-                        {/* <!-- <li>
-                            <a href="https://drive.google.com/file/d/1WJhxyBu5HfdkkMVLzp9xNOgOdT_tAw80/view?usp=share_link"
-                            target="_blank"><i class="fa fa-angle-right" aria-hidden="true"></i>Press Release</a>
-                        </li> --> */}
                         <li>
                             <a href="/contact"><i class="fa fa-angle-right" aria-hidden="true"></i>Kontak</a>
                         </li>

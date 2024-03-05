@@ -35,7 +35,7 @@ const Newslatest = () => {
                                                 Scientists (IICYMS) 2022.</p>
                                             </div>
                                             <div className="news-btn2">
-                                                <a href="/news1">Read More</a>
+                                                <a href="/news1">Selengkapnya</a>
                                             </div>
                                         </div>
                                     </div>
@@ -61,7 +61,7 @@ const Newslatest = () => {
                                                 held on May 29 – June 14, 2022</p>
                                             </div>
                                             <div className="news-btn2">
-                                                <a href="/news2">Read More</a>
+                                                <a href="/news2">Selengkapnya</a>
                                             </div>
                                         </div>
                                     </div>
@@ -88,7 +88,7 @@ const Newslatest = () => {
                                                 (IICYMS) 2022.</p>
                                             </div>
                                             <div className="news-btn2">
-                                                <a href="/news3">Read More</a>
+                                                <a href="/news3">Selengkapnya</a>
                                             </div>
                                         </div>
                                     </div>
@@ -96,7 +96,7 @@ const Newslatest = () => {
                             </div>
                             <div className="">
                                 <div className="btn-more">
-                                    <a href="/listnews">Load More</a>
+                                    <a href="/listnews">Muat Lebih Banyak</a>
                                 </div>
                             </div>
                         </div>

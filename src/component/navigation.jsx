@@ -62,7 +62,7 @@ import "../assets/css/styles.css"
                                         <div id="phone-details" className="widget-text2">
                                         <i className="glyph-icon flaticon-phone-call"></i>
                                             <div className="info-text">
-                                                <a href="tel:4155551234">
+                                                <a href="tel:+6281770914129">
                                                 <span>Telepon</span>
                                                 +62 817-7091-4129
                                                 </a>
@@ -75,9 +75,9 @@ import "../assets/css/styles.css"
                                         <div id="info-details" className="widget-text2">
                                         <i className="glyph-icon flaticon-email"></i>
                                             <div className="info-text">
-                                                <a href="mailto:info@domain.com">
+                                                <a href="mailto:nicymsofficial@gmail.com">
                                                 <span>Email</span>
-                                                iicmys.iysa@gmail.com
+                                                nicymsofficial@gmail.com
                                                 </a>
                                             </div>
                                         </div>
