@@ -52,7 +52,7 @@ import "../assets/css/styles.css"
                     <div className="row">
                         <div className="col-lg-4 col-md-12">
                             <div className="logo-area">
-                                <a href="index.html"><img src="./assets/logo/nicyms2.png" alt="logo" /></a>
+                                <a><img src="./assets/logo/nicyms2.png" alt="logo" /></a>
                             </div>
                         </div>
                         <div className="col-lg-8 col-md-12">
@@ -75,9 +75,9 @@ import "../assets/css/styles.css"
                                         <div id="info-details" className="widget-text2">
                                         <i className="glyph-icon flaticon-email"></i>
                                             <div className="info-text">
-                                                <a href="mailto:nicymsofficial@gmail.com">
+                                                <a href="mailto:iicmys.iysa@gmail.com">
                                                 <span>Email</span>
-                                                nicymsofficial@gmail.com
+                                                iicmys.iysa@gmail.com
                                                 </a>
                                             </div>
                                         </div>
