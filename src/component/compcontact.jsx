@@ -53,7 +53,7 @@ const Compcontact = () => {
 
                     <div class="contact-comment-section">
                         {/* <div id="form-messages"></div> */}
-                        <form method="post" action="https://formspree.io/f/mrgwjrda">
+                        <form method="post" action="https://formspree.io/f/mqazzkqq">
                             <div class="row">
                             <div class="col-md-6 col-sm-12">
                                 <div class="form-group">
@@ -85,7 +85,7 @@ const Compcontact = () => {
                             </div>
                             </div>
                             <div class="form-group mb-0">
-                            <input class="btn-send" type="submit" value="Submit Now" />
+                            <input class="btn-send" type="submit" value="send" />
                             </div>
                         </form>
                     </div>
