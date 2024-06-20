@@ -113,15 +113,7 @@ import "../assets/css/styles.css"
                             <div className="d-flex justify-content-between align-items-center" id="removeFlex">
                                 <div className="flex-grow-1">
                                     <a href="/" className="d-inline-block customNav">Utama</a>
-                                    <a className="dropdown d-inline-block">
-                                        <button className="btn btn-secondary dropdown-toggle customNav" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            Daftar Pemenang
-                                        </button>
-                                        <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1iJaeaCNNJfIX7JTQsH_HdVsBf3bGH1eT/view" target="_blank">2023</a>
-                                            <a className="dropdown-item" href="https://drive.google.com/file/d/1EjH734KaA3JyB7BYHqqjme6FjDq8SmaM/view" target="_blank">2022</a>
-                                        </div>
-                                    </a>
+                                    <a href="/lowtahun" className="d-inline-block customNav">Daftar Pemenang</a>
                                     <a className="dropdown d-inline-block">
                                         <button className="btn btn-secondary dropdown-toggle customNav" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Liputan Media

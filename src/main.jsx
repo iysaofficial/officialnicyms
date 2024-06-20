@@ -14,6 +14,12 @@ import News4 from "./pages/news/news4";
 import News5 from "./pages/news/news5";
 import News6 from "./pages/news/news6";
 
+// Import LoW
+import Lowtahun from "./pages/low/lowtahun";
+import Kategori23 from "./pages/low/2023/kategori23";
+import Jenjangofl23 from "./pages/low/2023/jenjangofl23";
+import Jenjangonl23 from "./pages/low/2023/jenjangonl23";
+
 // import ContactPage from "./pages/contactpages";
 // import Faq from "./pages/faq";
 // import PosterPage from "./pages/posterlayoutpages";
@@ -58,6 +64,22 @@ const router = createBrowserRouter([
   {
     path: "/news6",
     element: <News6 />
+  },
+  {
+    path: "/lowtahun",
+    element: <Lowtahun />
+  },
+  {
+    path: "/kategori23",
+    element: <Kategori23 />
+  },
+  {
+    path: "/jenjangofl23",
+    element: <Jenjangofl23 />
+  },
+  {
+    path: "/jenjangonl23",
+    element: <Jenjangonl23 />
   }
 ]);
 
