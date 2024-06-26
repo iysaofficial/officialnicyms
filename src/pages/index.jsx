@@ -13,6 +13,7 @@ import Newslatest from "../component/newslatest";
 // import Organized from "../components/organized";
 // import About from "../components/about";
 // import Backtotop from "../components/back-to-top";
+import Timevenue from "../component/timevenue";
 
 function Home() {
     return (
@@ -22,6 +23,7 @@ function Home() {
         <About />
         <Organized />
         <Category />
+        <Timevenue />
         <Aftermovie />
         <Newslatest />
         <Footer />
