@@ -14,18 +14,17 @@ const Slider = () => {
                                     <div className="display-table-cell">
                                         <div className="container">
                                             <h1 className="slider-title" data-animation-in="fadeInLeft" data-animation-out="animate-out">
-                                            BUKA PENDAFTARAN<br/>NICYMS 2024
+                                            TUTUP PENDAFTARAN<br/>NICYMS 2024
                                             </h1>
                                             <p data-animation-in="fadeInUp" data-animation-out="animate-out" className="slider-desc">
                                             NATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTIST (NICYMS).
                                             </p>
                                             <a
-                                                href="https://registrasi-nicyms-2024.vercel.app/"
-                                                target="_blank"
+                                                href="/"
                                                 className="sl-readmore-btn2 mr-30"
                                                 data-animation-in="lightSpeedIn"
                                                 data-animation-out="animate-out"
-                                                >Klik disini untuk Daftar</a>
+                                                >Tutup Pendaftaran</a>
                                             <a
                                                 href="https://drive.google.com/file/d/1HGxqcFIEihma4_Jad_bLdnjsSzyoXxaT/view?usp=sharing"
                                                 target="_blank"
