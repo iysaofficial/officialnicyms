@@ -147,7 +147,8 @@ import "../assets/css/styles.css"
                                             Sertifikat
                                         </button>
                                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a className="dropdown-item" href="#">Sertifikat Supervisor 2023</a>
+                                            <a className="dropdown-item" target="_blank" href="https://drive.google.com/drive/folders/1rcsBXk-DdMCkWPqcktXhOam6JzXrquI3?usp=drive_link">Sertifikat Supervisor 2024</a>
+                                            {/* <a className="dropdown-item" href="#">Sertifikat Supervisor 2023</a> */}
                                         </div>
                                     </a>
                                     <a href="/contact" className="d-inline-block customNav">Kontak</a>
