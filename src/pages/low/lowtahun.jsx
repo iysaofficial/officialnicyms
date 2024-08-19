@@ -31,6 +31,14 @@ const Lowtahun = () => {
         <div className="container">
           <h1>Pilih berdasarkan tahun acara yang Anda ikuti</h1>
           <div className="hero-btn text-center">
+            <a
+              className="btn m-2"
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1k4CFiCcs8sTe4IV0czG0MWA694KNte_f/view?usp=drive_link"
+            >
+              2024
+            </a>
             <a className="btn m-2" href="/kategori23">
               2023
             </a>
