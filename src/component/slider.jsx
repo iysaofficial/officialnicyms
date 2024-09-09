@@ -8,13 +8,13 @@ const Slider = () => {
                     {/* <div id="home-slider" className="rs-carousel owl-carousel" data-loop="true" data-items="4" data-margin="0"data-autoplay="false" data-autoplay-timeout="5000" data-smart-speed="1200" data-dots="false" data-nav="true"data-nav-speed="false" data-mobile-device="1" data-mobile-device-nav="true" data-mobile-device-dots="true"data-ipad-device="1" data-ipad-device-nav="true" data-ipad-device-dots="true" data-md-device="1" data-md-device-nav="true" data-md-device-dots="false"> */}
                         {/* <!-- Item 1 --> */}
                         <div className="item active">
-                            <img src="./assets/img/slide4.WebP" alt="Slide1" />
+                            <img src="./assets/img/slide4.jpg" alt="Slide1" />
                             <div className="slide-content">
                                 <div className="display-table">
                                     <div className="display-table-cell">
                                         <div className="container">
                                             <h1 className="slider-title" data-animation-in="fadeInLeft" data-animation-out="animate-out">
-                                            TUTUP PENDAFTARAN<br/>NICYMS 2024
+                                            SEGERA HADIR<br/>NICYMS 2025
                                             </h1>
                                             <p data-animation-in="fadeInUp" data-animation-out="animate-out" className="slider-desc">
                                             NATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTIST (NICYMS).
@@ -24,7 +24,7 @@ const Slider = () => {
                                                 className="sl-readmore-btn2 mr-30"
                                                 data-animation-in="lightSpeedIn"
                                                 data-animation-out="animate-out"
-                                                >Tutup Pendaftaran</a>
+                                                >SEGERA HADIR 2025</a>
                                             <a
                                                 href="https://drive.google.com/file/d/1HGxqcFIEihma4_Jad_bLdnjsSzyoXxaT/view?usp=sharing"
                                                 target="_blank"
