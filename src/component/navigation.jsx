@@ -68,9 +68,9 @@ function Navigation() {
                           <div id="phone-details" className="widget-text2">
                             <i className="glyph-icon flaticon-phone-call"></i>
                             <div className="info-text">
-                              <a href="tel:+6281770914129">
+                              <a href="https://wa.me/+6288213248890" target="blank">
                                 <span>Telepon</span>
-                                +62 817-7091-4129
+                                +62 882-1324-8890
                               </a>
                             </div>
                           </div>
@@ -94,7 +94,7 @@ function Navigation() {
                           <div id="address-details" className="widget-text2">
                             <i className="glyph-icon flaticon-placeholder"></i>
                             <div className="info-text">
-                              <a href="https://goo.gl/maps/9x18coXGCmSscKec6">
+                              <a href="https://goo.gl/maps/9x18coXGCmSscKec6" target="blank">
                                 <span>Lokasi</span>
                                 Pasir Putih Sawangan, Kota Depok
                               </a>
@@ -130,7 +130,7 @@ function Navigation() {
                     >
                       <div className="flex-grow-1">
                         <a href="/" className="d-inline-block customNav">
-                          Utama
+                          Beranda
                         </a>
                         <a
                           href="/lowtahun"

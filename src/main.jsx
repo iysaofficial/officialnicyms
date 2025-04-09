@@ -19,6 +19,10 @@ import Lowtahun from "./pages/low/lowtahun";
 import Kategori23 from "./pages/low/2023/kategori23";
 import Jenjangofl23 from "./pages/low/2023/jenjangofl23";
 import Jenjangonl23 from "./pages/low/2023/jenjangonl23";
+import HomeIndo from "./pages/registration/homeindo";
+import IndonesiaOnline from "./pages/registration/indo-online";
+import IndonesiaOffline from "./pages/registration/indo-offline";
+import ThankYouIndo from "./pages/registration/thankyouindo";
 
 // import ContactPage from "./pages/contactpages";
 // import Faq from "./pages/faq";
@@ -80,7 +84,23 @@ const router = createBrowserRouter([
   {
     path: "/jenjangonl23",
     element: <Jenjangonl23 />
-  }
+  },
+  {
+    path: "/homeindo",
+    element: <HomeIndo />
+  },
+  {
+    path: "/indoonline",
+    element: <IndonesiaOnline />
+  },
+  {
+    path: "/indooffline",
+    element: <IndonesiaOffline />
+  },
+  {
+    path: "/thankyouindo",
+    element: <ThankYouIndo/>
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

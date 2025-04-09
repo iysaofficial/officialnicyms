@@ -30,14 +30,14 @@ const Compcontact = () => {
                             <div class="contact-info contact-address">
                                 <i class="fa fa-map-marker"></i>
                                 <h4>Address</h4>
-                                <a href="https://maps.app.goo.gl/J4HZU8aZeLwXx7Fx7" target="_blank">Address Jalan Kemang No. 63, RT. 3 RW. 6 Pasir Putih Sawangan, Kota Depok, </a>
+                                <a href="https://maps.app.goo.gl/J4HZU8aZeLwXx7Fx7" target="_blank">Address Jalan Kemang, RT. 03 RW. 06 Pasir Putih Sawangan, Kota Depok, </a>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="contact-info contact-phone">
                                 <i class="fa fa-phone"></i>
                                 <h4>Phone Number</h4>
-                                <a href="https://wa.me/081770914129" target="_blank">+62 817-7091-4129</a>
+                                <a href="https://wa.me/+6288213248890" target="_blank">+62 882-1324-8890</a>
                             </div>
                         </div>
                         <div class="col-md-4 pr-0">

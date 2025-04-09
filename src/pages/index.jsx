@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navigation from "../component/navigation";
 import Footer from "../component/footer";
 
@@ -16,19 +17,31 @@ import Newslatest from "../component/newslatest";
 import Timevenue from "../component/timevenue";
 
 function Home() {
-    return (
-        <>
-        <Navigation />
-        <Slider />
-        <About />
-        <Organized />
-        <Category />
-        <Timevenue />
-        <Aftermovie />
-        <Newslatest />
-        <Footer />
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://www.chatbase.co/embed.min.js";
+    script.id = "MTgut_dugqJQoiWQga2-a";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+  
+  return (
+    <>
+      <Navigation />
+      <Slider />
+      <About />
+      <Organized />
+      <Category />
+      {/* <Timevenue /> */}
+      <Aftermovie />
+      <Newslatest />
+      <Footer />
     </>
-    )
+  );
 }
 
 export default Home;

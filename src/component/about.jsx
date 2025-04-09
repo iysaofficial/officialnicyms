@@ -30,7 +30,7 @@ function About() {
                     </div>
                     <div class="col-lg-5 col-md-12">
                     <div class="about-img rs-image-effect-shine">
-                        <img src="./assets/img/DSC0431.jpg" alt="" />
+                        <img src="./assets/img/NICYMS IICYMS 2024-18.jpg" alt="" />
                     </div>
                     </div>
                 </div>

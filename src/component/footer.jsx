@@ -25,7 +25,7 @@ const Footer = () => {
                             <div class="post-item">
                                 <div class="post-desc">
                                     <h5 class="post-title">
-                                    <a href="https://maps.app.goo.gl/TqKMxoUgbdf6XEgn7" target="_blank"> Jl. Kemang No.63 RT.03 RW.06</a>
+                                    <a href="https://maps.app.goo.gl/TqKMxoUgbdf6XEgn7" target="_blank"> Jl. Kemang RT.03 RW.06</a>
                                     </h5>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                             
                             <div class="post-desc">
                                 <h5 class="post-title">
-                                    <a href="wa.me/+6281770914129">+6281770914129</a>
+                                    <a href="https://wa.me/+6288213248890" target="blank">+6288213248890</a>
                                 </h5>
                             </div>
                             </div>
@@ -51,7 +51,7 @@ const Footer = () => {
                         <ul class="sitemap-widget2">
                         <li class="active">
                             <a href="/">
-                                <i class="fa fa-angle-right" aria-hidden="true"></i>Utama
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>Beranda
                             </a>
                         </li>
                         <li>
@@ -110,6 +110,7 @@ const Footer = () => {
                     </div>
                 </div>
                 </div>
+                
             </footer>
             {/* <!-- Footer End --> */}
             <div id="scrollUp">
