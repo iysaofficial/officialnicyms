@@ -44,8 +44,8 @@ const Compcontact = () => {
                             <div class="contact-info contact-email">
                                 <i class="fa fa-envelope"></i>
                                 <h4>Email Address</h4>
-                                <a href="mailto:iicmys.iysa@gmail.com">
-                                <p>iicmys.iysa@gmail.com</p>
+                                <a href="mailto:nicymsofficial@gmail.com">
+                                <p>nicymsofficial@gmail.com</p>
                                 </a>
                             </div>
                         </div>

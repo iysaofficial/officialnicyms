@@ -32,7 +32,7 @@ const Footer = () => {
                             <div class="post-item">
                             <div class="post-desc">
                                 <h5 class="post-title">
-                                    <a href="mailto:iicmys.iysa@gmail.com">iicmys.iysa@gmail.com</a>
+                                    <a href="mailto:nicymsofficial@gmail.com">nicymsofficial@gmail.com</a>
                                 </h5>
                             </div>
                             </div>

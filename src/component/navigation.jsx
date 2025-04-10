@@ -81,9 +81,9 @@ function Navigation() {
                           <div id="info-details" className="widget-text2">
                             <i className="glyph-icon flaticon-email"></i>
                             <div className="info-text">
-                              <a href="mailto:iicmys.iysa@gmail.com">
+                              <a href="mailto:nicymsofficial@gmail.com">
                                 <span>Email</span>
-                                iicmys.iysa@gmail.com
+                                nicymsofficial@gmail.com
                               </a>
                             </div>
                           </div>
