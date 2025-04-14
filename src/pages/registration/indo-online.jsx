@@ -308,7 +308,7 @@ function IndonesiaOnline() {
                     id="LEADER_EMAIL"
                     name="LEADER_EMAIL"
                     className="form-control"
-                    placeholder="Input Your Leader Email Address"
+                    placeholder="Masukan alamat email ketua tim"
                     required
                   />
                 </div>

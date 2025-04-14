@@ -310,7 +310,7 @@ function IndonesiaOffline() {
                     id="LEADER_EMAIL"
                     name="LEADER_EMAIL"
                     class="form-control"
-                    placeholder="Input Your Leader Email Address"
+                    placeholder="Masukan Alamat Email Ketua Tim"
                     required
                   />
                 </div>
@@ -660,7 +660,7 @@ function IndonesiaOffline() {
                     id="FILE"
                     name="FILE"
                     className="form-control"
-                    placeholder="Upload Link File Drive"
+                    placeholder="Upload Link Drive File"
                   />
                 </div>
               </div>
