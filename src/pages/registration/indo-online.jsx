@@ -64,7 +64,7 @@ function IndonesiaOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbz7Xew7ddJjYvSWsQl-s1SEymNiXT4k7-81mL_GwM7UtGMdy9iXeeAMQSN9QdhwPVXbfg/exec";
+    "https://script.google.com/macros/s/AKfycbwKKdYatC5oa15M-Oue3MC8q--vvg2NfYe6BO-KZ5leEWqjSc3OXx8GxlZ3-Q78aHtOAw/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
