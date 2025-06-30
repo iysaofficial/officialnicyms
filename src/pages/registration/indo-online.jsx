@@ -64,7 +64,7 @@ function IndonesiaOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycbwKKdYatC5oa15M-Oue3MC8q--vvg2NfYe6BO-KZ5leEWqjSc3OXx8GxlZ3-Q78aHtOAw/exec";
+    "";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -122,7 +122,7 @@ function IndonesiaOnline() {
 
         form.reset();
         setTimeout(() => {
-          navigate("/thankyouindo", { state: formData });
+          navigate("", { state: formData });
         }, 1000);
       } else {
         setStatusMessage("Terjadi kesalahan saat mengirim data.");
@@ -678,9 +678,9 @@ function IndonesiaOnline() {
               {/* GENERAL INFORMATION END */}
               {/* GENERAL INFORMATION END */}
 
-              <div className="button">
+              {/* <div className="button">
                 <input type="submit" value="KIRIM" />
-              </div>
+              </div> */}
             </form>
 
             {/* Loader dan Status Message */}
