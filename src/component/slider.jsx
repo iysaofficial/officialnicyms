@@ -18,7 +18,6 @@ const Slider = () => {
                       data-animation-in="fadeInLeft"
                       data-animation-out="animate-out"
                     >
-                      BUKA PENDAFTARAN
                       <br />
                       NICYMS 2025
                     </h1>
