@@ -269,11 +269,17 @@ function Navigation() {
                             <a
                               className="dropdown-item"
                               target="_blank"
+                              href="https://drive.google.com/drive/folders/12691ID90CNE1PhKIRYnXAVU_7gCaN8jZ?usp=sharing"
+                            >
+                              Sertifikat Supervisor 2025
+                            </a>
+                            <a
+                              className="dropdown-item"
+                              target="_blank"
                               href="https://drive.google.com/drive/folders/1rcsBXk-DdMCkWPqcktXhOam6JzXrquI3?usp=drive_link"
                             >
                               Sertifikat Supervisor 2024
                             </a>
-                            {/* <a className="dropdown-item" href="#">Sertifikat Supervisor 2023</a> */}
                           </div>
                         </a>
                         <a href="/contact" className="d-inline-block customNav">
