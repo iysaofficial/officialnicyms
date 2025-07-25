@@ -19,6 +19,9 @@ import Lowtahun from "./pages/low/lowtahun";
 import Kategori23 from "./pages/low/2023/kategori23";
 import Jenjangofl23 from "./pages/low/2023/jenjangofl23";
 import Jenjangonl23 from "./pages/low/2023/jenjangonl23";
+import Kategori25 from "./pages/low/2025/kategori25";
+import Jenjangofl25 from "./pages/low/2025/jenjangofl25";
+import Jenjangonl25 from "./pages/low/2025/jenjangonl25";
 import HomeIndo from "./pages/registration/homeindo";
 import IndonesiaOnline from "./pages/registration/indo-online";
 import IndonesiaOffline from "./pages/registration/indo-offline";
@@ -84,6 +87,18 @@ const router = createBrowserRouter([
   {
     path: "/jenjangonl23",
     element: <Jenjangonl23 />
+  },
+  {
+    path: "/kategori25",
+    element: <Kategori25 />
+  },
+  {
+    path: "/jenjangofl25",
+    element: <Jenjangofl25 />
+  },
+  {
+    path: "/jenjangonl25",
+    element: <Jenjangonl25 />
   },
   {
     path: "/homeindo",

@@ -1,8 +1,8 @@
 import React from "react";
-import Navigation from "../../component/navigation";
-import Footer from "../../component/footer";
+import Navigation from "../../../component/navigation";
+import Footer from "../../../component/footer";
 
-const Lowtahun = () => {
+const Jenjangofl23 = () => {
   return (
     <>
       <Navigation />
@@ -19,7 +19,7 @@ const Lowtahun = () => {
                       Utama
                     </a>
                   </li>
-                  <li>Tahun Event</li>
+                  <li>Jenjang Event Offline</li>
                 </ul>
               </div>
             </div>
@@ -28,33 +28,34 @@ const Lowtahun = () => {
       </div>
       {/* Breadcrumbs End */}
       <section className="faq-section">
-        <div className="container">
-          <h1>Pilih berdasarkan tahun acara yang Anda ikuti</h1>
+        <div className="container text-center">
+          <h1>
+            Pilih berdasarkan Jenjang event Offline yang Anda ikuti
+          </h1>
           <div className="hero-btn text-center">
             <a
-              className="btn m-2"
-              href="/kategori25"
-            >
-              2025
-            </a>
-            <a
-              className="btn m-2"
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/file/d/1k4CFiCcs8sTe4IV0czG0MWA694KNte_f/view?usp=drive_link"
-            >
-              2024
-            </a>
-            <a className="btn m-2" href="/kategori23">
-              2023
-            </a>
-            <a
-              className="btn m-2"
-              href="https://drive.google.com/file/d/1EjH734KaA3JyB7BYHqqjme6FjDq8SmaM/view"
+              className="btn m-2 sl-readmore-btn2"
+              href="https://drive.google.com/file/d/1yf3OOgOG0XrSyUqbGNnv4Qh17artmrcJ/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
-              2022
+              Universitas
+            </a>
+            <a
+              className="btn m-2 sl-readmore-btn2"
+              href="https://drive.google.com/file/d/1A5UV3yoe_iiHu0vdfi4cstu1PFT-eoWK/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sekolah Menangah Atas (SMA)
+            </a>
+            <a
+              className="btn m-2 sl-readmore-btn2"
+              href="https://drive.google.com/file/d/1ee8ZmHibHzYdyWA21mtVCajPedqJKRwt/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sekolah Menengah Pertama (SMP)
             </a>
           </div>
         </div>
@@ -64,4 +65,4 @@ const Lowtahun = () => {
   );
 };
 
-export default Lowtahun;
+export default Jenjangofl23;

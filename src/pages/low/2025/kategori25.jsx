@@ -1,8 +1,8 @@
 import React from "react";
-import Navigation from "../../component/navigation";
-import Footer from "../../component/footer";
+import Navigation from "../../../component/navigation";
+import Footer from "../../../component/footer";
 
-const Lowtahun = () => {
+const Kategori23 = () => {
   return (
     <>
       <Navigation />
@@ -19,7 +19,7 @@ const Lowtahun = () => {
                       Utama
                     </a>
                   </li>
-                  <li>Tahun Event</li>
+                  <li>Kategori Event</li>
                 </ul>
               </div>
             </div>
@@ -28,33 +28,32 @@ const Lowtahun = () => {
       </div>
       {/* Breadcrumbs End */}
       <section className="faq-section">
-        <div className="container">
-          <h1>Pilih berdasarkan tahun acara yang Anda ikuti</h1>
+        <div className="container text-center">
+          <h1>
+          Pilih kategori daftar pemenang yang ingin kalian lihat
+          </h1>
           <div className="hero-btn text-center">
-            <a
+            {/* <a
               className="btn m-2"
-              href="/kategori25"
-            >
-              2025
-            </a>
-            <a
-              className="btn m-2"
-              target="_blank"
-              rel="noreferrer"
-              href="https://drive.google.com/file/d/1k4CFiCcs8sTe4IV0czG0MWA694KNte_f/view?usp=drive_link"
-            >
-              2024
-            </a>
-            <a className="btn m-2" href="/kategori23">
-              2023
-            </a>
-            <a
-              className="btn m-2"
-              href="https://drive.google.com/file/d/1EjH734KaA3JyB7BYHqqjme6FjDq8SmaM/view"
+              href=""
               target="_blank"
               rel="noreferrer"
             >
-              2022
+              SPECIAL AWARD OFFLINE
+            </a> */}
+            <a
+              className="btn m-2"
+              href="https://drive.google.com/file/d/1qoKTQ1JLff4nO0eZq5K9y3QeL6NHy0gp/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              SPECIAL AWARD ONLINE
+            </a>
+            {/* <a className="btn m-2" href="/jenjangofl25">
+              NICYMS OFFLINE
+            </a> */}
+            <a className="btn m-2" href="/jenjangonl25">
+              NICYMS ONLINE
             </a>
           </div>
         </div>
@@ -64,4 +63,4 @@ const Lowtahun = () => {
   );
 };
 
-export default Lowtahun;
+export default Kategori23;
