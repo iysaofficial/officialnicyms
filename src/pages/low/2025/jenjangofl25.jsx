@@ -35,7 +35,7 @@ const Jenjangofl23 = () => {
           <div className="hero-btn text-center">
             <a
               className="btn m-2 sl-readmore-btn2"
-              href="https://drive.google.com/file/d/1yf3OOgOG0XrSyUqbGNnv4Qh17artmrcJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lBReYzpgVxnsTwlGFY54PCiVQJvmn1e4/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +43,7 @@ const Jenjangofl23 = () => {
             </a>
             <a
               className="btn m-2 sl-readmore-btn2"
-              href="https://drive.google.com/file/d/1A5UV3yoe_iiHu0vdfi4cstu1PFT-eoWK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1uVB9cQq4aypeKh90N-x4fqLGrhznKvoU/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -51,7 +51,7 @@ const Jenjangofl23 = () => {
             </a>
             <a
               className="btn m-2 sl-readmore-btn2"
-              href="https://drive.google.com/file/d/1ee8ZmHibHzYdyWA21mtVCajPedqJKRwt/view?usp=sharing"
+              href="https://drive.google.com/file/d/1hwJOtHrFek4dBdKYpgaTa_HgBol6SOpx/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

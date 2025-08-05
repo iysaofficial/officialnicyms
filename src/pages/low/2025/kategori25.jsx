@@ -49,9 +49,9 @@ const Kategori23 = () => {
             >
               SPECIAL AWARD ONLINE
             </a>
-            {/* <a className="btn m-2" href="/jenjangofl25">
+            <a className="btn m-2" href="/jenjangofl25">
               NICYMS OFFLINE
-            </a> */}
+            </a>
             <a className="btn m-2" href="/jenjangonl25">
               NICYMS ONLINE
             </a>

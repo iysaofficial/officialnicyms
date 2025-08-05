@@ -158,6 +158,13 @@ function Navigation() {
                             </a>
                             <a
                               className="dropdown-item"
+                              href="https://drive.google.com/file/d/1SfhR6kmDOjxCun-tW4_3qMTlykJ7WHA_/view?usp=sharing"
+                              target="_blank"
+                            >
+                              Press Release 2025
+                            </a>
+                            <a
+                              className="dropdown-item"
                               href="https://drive.google.com/file/d/1M_Aej44_CZefC9WFj_3HhMbF2OZbratg/view?usp=sharing"
                               target="_blank"
                             >
@@ -225,6 +232,13 @@ function Navigation() {
                             className="dropdown-menu"
                             aria-labelledby="dropdownMenuButton"
                           >
+                            <a
+                              className="dropdown-item"
+                              href="https://drive.google.com/drive/folders/1AdSruq7PSFTTBioDxy4C9FOq873ntIwj?usp=sharing"
+                              target="_blank"
+                            >
+                              2025
+                            </a>
                             <a
                               className="dropdown-item"
                               href="https://drive.google.com/drive/folders/1xR5soI5qsjzG0mp-PXrIiJlgMxZjUmUD?usp=sharing"
