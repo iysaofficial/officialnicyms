@@ -24,9 +24,40 @@ const Compnews = () => {
         <section>
             <div class="footer-top">
                 <div class="container">
-                    <h2 class="text-center mt-50" >Berita 2023</h2>
+                    
+
+                    
+                    
 
                     <div class="row">
+                    <h2 class="text-center mt-50" >Berita 2025</h2>
+                    <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
+                            <img src="./assets/news/20252.jpg" class="card-img-top" alt="..." />
+                            <div class="card-news-body">
+                                <h5 class="card-news-title">Sukses Digelar, NICYMS dan IICYMS 2025 Kembali Hadir di UNIKOM</h5>
+                                <p class="card-text">Jabaran.id – Indonesia Young Scientist Association (IYSA) kembali sukses menyelenggarakan dua ajang bergengsi bertaraf internasional, yaitu National...</p>
+                                <a href="https://jabaran.id/sukses-digelar-nicyms-dan-iicyms-2025-kembali-hadir-di-unikom/" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                    <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
+                            <img src="./assets/news/20251.webp" class="card-img-top" alt="..." />
+                            <div class="card-news-body">
+                                <h5 class="card-news-title">Ratusan Siswa dari 20 Negara Ikuti IICYMS dan NICYMS serta Olimpiade Robotik di Unikom Bandung</h5>
+                                <p class="card-text">PIKIRAN RAKYAT - Ratusan siswa dari 20 negara mengikuti International Invention Competition for Young Moslem Scientists (IICYMS) dan National Invention...</p>
+                                <a href="https://www.pikiran-rakyat.com/pendidikan/pr-019530695/ratusan-siswa-dari-20-negara-ikuti-iicyms-dan-nicyms-serta-olimpiade-robotik-di-unikom-bandung" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+                    <h2 class="text-center mt-50" >Berita 2024</h2>
+                    <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
+                            <img src="./assets/news/20241.webp" class="card-img-top" alt="..." />
+                            <div class="card-news-body">
+                                <h5 class="card-news-title">Ajang Sains Nasional dan Internasional di UNIKOM: Pembuktian Pelajar Muslim di Era Modern</h5>
+                                <p class="card-text">MATA BANDUNG - Universitas Komputer Indonesia (UNIKOM) kembali membuktikan kiprahnya dalam dunia pendidikan...</p>
+                                <a href="https://matabandung.pikiran-rakyat.com/pendidikan/pr-1828496552/ajang-sains-nasional-dan-internasional-di-unikom-pembuktian-pelajar-muslim-di-era-modern?page=all" class="btn btn-primary">Selengkapnya</a>
+                            </div>
+                        </div>
+
+                    <h2 class="text-center mt-50" >Berita 2023</h2>
                     <div class="card-news mt-5 mx-auto col-lg-3 col-md-12">
                             <img src="./assets/news/news5.jpg" class="card-img-top" alt="..." />
                             <div class="card-news-body">
