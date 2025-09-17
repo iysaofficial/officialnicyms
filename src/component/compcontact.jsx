@@ -1,5 +1,37 @@
 
+import { useEffect } from "react";
 const Compcontact = () => {
+     useEffect(() => {
+      const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzdgUOy_s6zjJQTgqXQ7GX3H1_w6TvWq1hsBZgH0mSREWt3qXCKA34-qo74-jfDVbHE/exec";
+
+      const form = document.forms.namedItem("contact");
+
+      if (form) {
+      const handleSubmit = async (e) => {
+          e.preventDefault();
+          try {
+          await fetch(scriptURL, {
+              method: "POST",
+              body: new FormData(form),
+          });
+          alert("Message sent successfully!");
+          form.reset();
+          } catch (error) {
+          console.error("Error:", error);
+          alert("Failed to send Message.");
+          }
+      };
+
+      form.addEventListener("submit", handleSubmit);
+
+      // cleanup listener
+      return () => {
+          form.removeEventListener("submit", handleSubmit);
+      };
+      }
+  }, []);
+
     return (
         <>
         {/* <!-- Breadcrumbs Start --> */}
@@ -53,26 +85,21 @@ const Compcontact = () => {
 
                     <div class="contact-comment-section">
                         {/* <div id="form-messages"></div> */}
-                        <form method="post" action="https://formspree.io/f/mqazzkqq">
+                        <form method="post" action="" name="contact">
+                            <input type="hidden" name="Event" value="NICYMS" readOnly />
                             <div class="row">
-                            <div class="col-md-6 col-sm-12">
+                            <div class="col-md-12 col-sm-12">
                                 <div class="form-group">
-                                <label>First Name*</label>
-                                <input name="name" class="form-control" type="text" required />
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="form-group">
-                                <label>Last Name*</label>
-                                <input name="name" class="form-control" type="text" required />
+                                <label>Full Name*</label>
+                                <input name="Name" class="form-control" type="text" required />
                                 </div>
                             </div>
                             </div>
                             <div class="row">
-                            <div class="col-md-6 col-sm-12">
+                            <div class="col-md-12 col-sm-12">
                                 <div class="form-group">
                                 <label>Email*</label>
-                                <input name="email"class="form-control" type="email" required />
+                                <input name="Email"class="form-control" type="email" required />
                                 </div>
                             </div>
                             </div>
@@ -80,7 +107,7 @@ const Compcontact = () => {
                             <div class="col-md-12 col-sm-12">
                                 <div class="form-group">
                                 <label>Message *</label>
-                                <textarea cols="40" rows="10" name="message" class="textarea form-control" required></textarea>
+                                <textarea cols="40" rows="10" name="Message" class="textarea form-control" required></textarea>
                                 </div>
                             </div>
                             </div>
