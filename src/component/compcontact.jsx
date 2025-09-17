@@ -25,7 +25,6 @@ const Compcontact = () => {
 
       form.addEventListener("submit", handleSubmit);
 
-      // cleanup listener
       return () => {
           form.removeEventListener("submit", handleSubmit);
       };
