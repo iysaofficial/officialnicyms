@@ -48,7 +48,7 @@ function IndonesiaOnline() {
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "National Invention Competition For Young Moslem Scientist - Online Competition":
-        setCategoryPrice("RP 950.000");
+        setCategoryPrice("RP 1.150.000");
         break;
       default:
         break;
@@ -64,7 +64,7 @@ function IndonesiaOnline() {
   }, [navigate]);
 
   const scriptURL =
-    "";
+    "https://script.google.com/macros/s/AKfycbwyuAKpIWi2gHPO6Qwpl6LWeHhlHKhaCPqSQQdtq-PKYcsfuXdjhUnhm6ol9fqFUiGWIA/exec";
 
   useEffect(() => {
     const form = document.forms["regist-form"];
@@ -122,7 +122,7 @@ function IndonesiaOnline() {
 
         form.reset();
         setTimeout(() => {
-          navigate("", { state: formData });
+          navigate("/thankyouindo", { state: formData });
         }, 1000);
       } else {
         setStatusMessage("Terjadi kesalahan saat mengirim data.");
@@ -602,9 +602,7 @@ function IndonesiaOnline() {
                 </div>
               </div>
               {/* DETAIL PROJECT END */}
-              {/* DETAIL PROJECT END */}
 
-              {/* GENERAL INFORMATION START */}
               {/* GENERAL INFORMATION START */}
               <div className="">
                 <h1 className="text-sm md:text-lg lg:text-5xl">
@@ -676,11 +674,10 @@ function IndonesiaOnline() {
                 </div>
               </div>
               {/* GENERAL INFORMATION END */}
-              {/* GENERAL INFORMATION END */}
 
-              {/* <div className="button">
+              <div className="button">
                 <input type="submit" value="KIRIM" />
-              </div> */}
+              </div>
             </form>
 
             {/* Loader dan Status Message */}

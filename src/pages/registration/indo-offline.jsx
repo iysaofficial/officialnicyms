@@ -65,7 +65,7 @@ function IndonesiaOffline() {
   }, [navigate]);
 
   const scriptURL =
-    "";
+    "https://script.google.com/macros/s/AKfycbyNbysVgonLg5kYHBZLj_pa2IV2KMEMPR8f4B5LbA62qRAg2K2edKMe7m4idQF8cT9YBA/exec";
 
     useEffect(() => {
       const form = document.forms["regist-form"];
@@ -122,7 +122,7 @@ function IndonesiaOffline() {
   
         form.reset();
         setTimeout(() => {
-          navigate("", { state: formData });
+          navigate("/thankyouindo", { state: formData });
         }, 1000);
       } else {
         setStatusMessage("Terjadi kesalahan saat mengirim data.");
@@ -339,7 +339,6 @@ function IndonesiaOffline() {
               </div>
 
               {/* DATA SEKOLAH START */}
-              {/* DATA SEKOLAH START */}
               <h1 className="text-sm md:text-lg lg:text-5xl">DATA SEKOLAH</h1>
               <h1 className="garis-bawah"></h1>
               <div className="user-details">
@@ -431,9 +430,7 @@ function IndonesiaOffline() {
                 </div>
               </div>
               {/* DATA SEKOLAH END */}
-              {/* DATA SEKOLAH END */}
 
-              {/* DATA PEMBIMBING START */}
               {/* DATA PEMBIMBING START */}
               <h1 className="text-sm md:text-lg lg:text-5xl">
                 DATA PEMBIMBING
@@ -492,9 +489,7 @@ function IndonesiaOffline() {
                 </div>
               </div>
               {/* DATA PEMBIMBING END */}
-              {/* DATA PEMBIMBING END */}
 
-              {/* DETAIL PROJECT START */}
               {/* DETAIL PROJECT START */}
               <div className="">
                 <h1 className="text-sm md:text-lg lg:text-5xl">
@@ -665,11 +660,10 @@ function IndonesiaOffline() {
                 </div>
               </div>
               {/* GENERAL INFORMATION END */}
-              {/* GENERAL INFORMATION END */}
 
-              {/* <div className="button">
+              <div className="button">
                 <input type="submit" value="KIRIM" />
-              </div> */}
+              </div>
             </form>
             {/* Loader dan Status Message */}
             {isLoading && (

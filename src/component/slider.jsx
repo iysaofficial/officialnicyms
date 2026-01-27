@@ -29,13 +29,14 @@ const Slider = () => {
                       NATIONAL INVENTION COMPETITION FOR YOUNG MOSLEM SCIENTIST
                       (NICYMS).
                     </p>
-                    {/* <a
-                                                href="/homeindo"
-                                                className="sl-readmore-btn2 mr-30"
-                                                data-animation-in="lightSpeedIn"
-                                                data-animation-out="animate-out"
-                                                >Daftar disini!!</a> */}
-                    <a className="sl-readmore-btn2 mr-30">Tutup Registrasi</a>
+                    <a
+                      href="/homeindo"
+                      className="sl-readmore-btn2 mr-30"
+                      data-animation-in="lightSpeedIn"
+                      data-animation-out="animate-out"
+                      >Daftar disini!!
+                    </a>
+                    {/* <a className="sl-readmore-btn2 mr-30">Tutup Registrasi</a> */}
                     <a
                       href="https://drive.google.com/file/d/1hFH1XK4QLvsSjJ0TJzO47kmcOFzerMKS/view?usp=sharing"
                       target="_blank"
