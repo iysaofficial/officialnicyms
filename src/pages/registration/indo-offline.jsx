@@ -43,7 +43,7 @@ function IndonesiaOffline() {
   const handleCategoryChange = (e) => {
     const value = e.target.value;
     setSelectedCategory(value);
-    
+
     // Logika untuk menentukan harga berdasarkan kategori yang dipilih
     switch (value) {
       case "National Invention Competition For Young Moslem Scientist - Offline Competition":
@@ -67,51 +67,50 @@ function IndonesiaOffline() {
   const scriptURL =
     "https://script.google.com/macros/s/AKfycbyNbysVgonLg5kYHBZLj_pa2IV2KMEMPR8f4B5LbA62qRAg2K2edKMe7m4idQF8cT9YBA/exec";
 
-    useEffect(() => {
-      const form = document.forms["regist-form"];
-  
-      if (form) {
-        const handleSubmit = async (e) => {
-          e.preventDefault();
-          setShowModal(true);
-          setCanClick(false);
-          setCountdown(5); // Set ulang countdown saat modal muncul
-  
-          let count = 5;
-          const interval = setInterval(() => {
-            count -= 1;
-            setCountdown(count);
-  
-            if (count <= 1) {
-              clearInterval(interval); // Hentikan countdown di angka 1
-              setCanClick(true);
-            }
-          }, 1000);
-        };
-  
-        form.addEventListener("submit", handleSubmit);
-        return () => {
-          form.removeEventListener("submit", handleSubmit);
-        };
-      }
-    }, []);
+  useEffect(() => {
+    const form = document.forms["regist-form"];
 
+    if (form) {
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        setShowModal(true);
+        setCanClick(false);
+        setCountdown(5); // Set ulang countdown saat modal muncul
+
+        let count = 5;
+        const interval = setInterval(() => {
+          count -= 1;
+          setCountdown(count);
+
+          if (count <= 1) {
+            clearInterval(interval); // Hentikan countdown di angka 1
+            setCanClick(true);
+          }
+        }, 1000);
+      };
+
+      form.addEventListener("submit", handleSubmit);
+      return () => {
+        form.removeEventListener("submit", handleSubmit);
+      };
+    }
+  }, []);
   const handleConfirmSubmit = async () => {
     setShowModal(false); // Tutup modal
     const form = document.forms["regist-form"];
-  
+
     if (!form) return;
-  
+
     setIsLoading(true);
     try {
       const response = await fetch(scriptURL, {
         method: "POST",
         body: new FormData(form),
       });
-  
+
       if (response.ok) {
         setStatusMessage("Data berhasil dikirim!");
-        
+
         // Ambil data sebelum reset
         const formData = {
           namaLengkap: selectedMaxNamaLengkap,
@@ -119,7 +118,7 @@ function IndonesiaOffline() {
           category: selectedCategory,
           namasekolah: selectedNamaSekolah,
         };
-  
+
         form.reset();
         setTimeout(() => {
           navigate("/thankyouindo", { state: formData });
@@ -190,10 +189,10 @@ function IndonesiaOffline() {
                       disabled={!canClick || isLoading}
                     >
                       {isLoading
-                        ? "Submitting..."
+                        ? "Mengirim..."
                         : canClick
                         ? "Lanjutkan"
-                        : `Please wait... ${countdown}`}
+                        : `Tunggu... ${countdown}`}
                     </button>
                   </div>
                 </div>
@@ -213,8 +212,8 @@ function IndonesiaOffline() {
                     id="CATEGORY_PARTICIPANT"
                     name="CATEGORY_PARTICIPANT"
                     className="form-control"
-                    placeholder="Choose Categories Participant"
-                    value="PESERTA INDONESIA"
+                    placeholder="Pilih Kategori Peserta"
+                    value="INDONESIA"
                     readOnly
                   />
                 </div>
@@ -253,9 +252,9 @@ function IndonesiaOffline() {
                       diawal, dengan format seperti berikut :
                     </p>
                     <p>Note : maksimal 5 anggota + 1 ketua tim</p>
-                    <h6>Kamal Putra</h6>
-                    <h6>Ranu Ramadhan</h6>
-                    <h6>Irsyad Zaidan</h6>
+                    <h6>Kamal Putra Kian Santang</h6>
+                    <h6>Muhammad Nur Alif Zainudin</h6>
+                    <h6>Irsyad Kamil Zaidan</h6>
                   </label>
                   <textarea
                     type="text"
@@ -268,7 +267,7 @@ function IndonesiaOffline() {
                     onChange={handleInputNameChange}
                   ></textarea>
                   <p>
-                    {selectedMaxNamaLengkap.length} / {maxNameChars} character
+                    {selectedMaxNamaLengkap.length} / {maxNameChars} karakter
                   </p>
                 </div>
                 <div className="input-box">
@@ -405,14 +404,14 @@ function IndonesiaOffline() {
                     required
                   >
                     <option value="">--Pilih Jenjang Pendidikan Anda--</option>
-                    <option value="Sekolah Dasar">Sekolah Dasar</option>
-                    <option value="Sekolah Menengah Pertama">
-                      Sekolah Menengah Pertama
+                    <option value="Sekolah Dasar">
+                      Sekolah Dasar atau Sederajat
                     </option>
-                    <option value="Sekolah Menengah Atas">
-                      Sekolah Menengah Atas
+                    <option value="Sekolah Menengah">
+                      Sekolah Menengah (SMP, SMA, MA, MTS atau Sederajat)
                     </option>
                     <option value="Universitas">Universitas</option>
+                    <option value="Publik">Publik</option>
                   </select>
                 </div>
                 <div className="input-box">
@@ -519,7 +518,7 @@ function IndonesiaOffline() {
                     onChange={handleInputProjectChange}
                   ></textarea>
                   <p>
-                    {selectedMaxProject.length} / {maxProjectChars} character
+                    {selectedMaxProject.length} / {maxProjectChars} karakter
                   </p>
                 </div>
 
@@ -558,7 +557,7 @@ function IndonesiaOffline() {
                     id="YES_NO"
                     name="YES_NO"
                     className="form-control"
-                    placeholder="--Choose Information Resources-- "
+                    placeholder="--Memilih Sumber Daya Informasi--"
                     required
                   >
                     <option>--Pilih--</option>
@@ -625,10 +624,12 @@ function IndonesiaOffline() {
                     id="INFORMATION_RESOURCES"
                     name="INFORMATION_RESOURCES"
                     className="form-control"
-                    placeholder="--Choose Information Resources-- "
+                    placeholder="--Memilih Sumber Daya Informasi--"
                     required
                   >
                     <option value="">--Pilih Sumber Informasi--</option>
+                    <option value="IYSA Website">IYSA Website</option>
+                    <option value="NICYMS Website">NICYMS Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="NICYMS Instagram">NICYMS Instagram</option>
                     <option value="Pembimbing/Sekolah">
@@ -636,8 +637,6 @@ function IndonesiaOffline() {
                     </option>
                     <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
-                    <option value="IYSA Website">IYSA Website</option>
-                    <option value="NICYMS Website">NICYMS Website</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="NICYMS Email">NICYMS Email</option>
                     <option value="Acara Sebelumnya">Acara Sebelumnya</option>
@@ -655,10 +654,11 @@ function IndonesiaOffline() {
                     id="FILE"
                     name="FILE"
                     className="form-control"
-                    placeholder="Upload Link Drive File"
+                    placeholder="Upload Link File Drive"
                   />
                 </div>
               </div>
+              {/* GENERAL INFORMATION END */}
               {/* GENERAL INFORMATION END */}
 
               <div className="button">

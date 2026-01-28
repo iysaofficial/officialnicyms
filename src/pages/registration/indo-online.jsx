@@ -18,7 +18,7 @@ function IndonesiaOnline() {
   const [showModal, setShowModal] = useState(false);
   const [countdown, setCountdown] = useState(5);
   const [canClick, setCanClick] = useState(false);
-  const navigate = useNavigate(); // React Router hook untuk navigasi
+  const navigate = useNavigate();
 
   const handleInputNameChange = (e) => {
     const { value } = e.target;
@@ -144,6 +144,7 @@ function IndonesiaOnline() {
             <br />
             <h1 class="garis-bawah"></h1>
             <br />
+            <br />
             <h4>
               HALLO PESERTA NICYMS 2026, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
@@ -191,10 +192,10 @@ function IndonesiaOnline() {
                       disabled={!canClick || isLoading}
                     >
                       {isLoading
-                        ? "Submitting..."
+                        ? "Mengirim..."
                         : canClick
                         ? "Lanjutkan"
-                        : `Please wait... ${countdown}`}
+                        : `Tunggu... ${countdown}`}
                     </button>
                   </div>
                 </div>
@@ -215,7 +216,7 @@ function IndonesiaOnline() {
                     name="CATEGORY_PARTICIPANT"
                     className="form-control"
                     placeholder="Choose Categories Participant"
-                    value="PESERTA INDONESIA"
+                    value="INDONESIA"
                     readOnly
                   />
                 </div>
@@ -251,9 +252,9 @@ function IndonesiaOnline() {
                       diawal, dengan format seperti berikut :
                     </p>
                     <p>Note : maksimal 5 anggota + 1 ketua tim</p>
-                    <h6>Kamal Putra</h6>
-                    <h6>Ranu Ramadhan</h6>
-                    <h6>Irsyad Zaidan</h6>
+                    <h6>Adrian Simatupang</h6>
+                    <h6>Pangeran Hasanudin</h6>
+                    <h6>Irsyad Zaidan Kusuma</h6>
                   </label>
                   <textarea
                     type="text"
@@ -308,7 +309,7 @@ function IndonesiaOnline() {
                     id="LEADER_EMAIL"
                     name="LEADER_EMAIL"
                     className="form-control"
-                    placeholder="Masukan alamat email ketua tim"
+                    placeholder="Masukan Alamat Email ketua Tim"
                     required
                   />
                 </div>
@@ -404,14 +405,14 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Pilih Jenjang Pendidikan Anda--</option>
-                    <option value="Sekolah Dasar">Sekolah Dasar</option>
-                    <option value="Sekolah Menengah Pertama">
-                      Sekolah Menengah Pertama
+                    <option value="Sekolah Dasar">
+                      Sekolah Dasar atau Sederajat
                     </option>
-                    <option value="Sekolah Menengah Atas">
-                      Sekolah Menengah Atas
+                    <option value="Sekolah Menengah">
+                      Sekolah Menengah (SMP, SMA, MA, MTS atau Sederajat)
                     </option>
                     <option value="Universitas">Universitas</option>
+                    <option value="Publik">Publik</option>
                   </select>
                 </div>
                 <div className="input-box">
@@ -602,7 +603,9 @@ function IndonesiaOnline() {
                 </div>
               </div>
               {/* DETAIL PROJECT END */}
+              {/* DETAIL PROJECT END */}
 
+              {/* GENERAL INFORMATION START */}
               {/* GENERAL INFORMATION START */}
               <div className="">
                 <h1 className="text-sm md:text-lg lg:text-5xl">
@@ -643,15 +646,15 @@ function IndonesiaOnline() {
                     required
                   >
                     <option value="">--Pilih Sumber Informasi--</option>
+                    <option value="IYSA Website">IYSA Website</option>
+                    <option value="NICYMS Website">NICYMS Website</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
                     <option value="NICYMS Instagram">NICYMS Instagram</option>
                     <option value="Pembimbing/Sekolah">
                       Pembimbing/Sekolah
                     </option>
-                    <option value="IYSA FaceBook">IYSA Facebook</option>
+                    <option value="IYSA Facebook">IYSA Facebook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
-                    <option value="IYSA Website">IYSA Website</option>
-                    <option value="NICYMS Website">NICYMS Website</option>
                     <option value="IYSA Email">IYSA Email</option>
                     <option value="NICYMS Email">NICYMS Email</option>
                     <option value="Acara Sebelumnya">Acara Sebelumnya</option>
@@ -673,6 +676,7 @@ function IndonesiaOnline() {
                   />
                 </div>
               </div>
+              {/* GENERAL INFORMATION END */}
               {/* GENERAL INFORMATION END */}
 
               <div className="button">
