@@ -145,7 +145,7 @@ function IndonesiaOffline() {
             <h1 class="garis-bawah"></h1>
             <br />
             <h4 className="text-xl">
-              HALLO PESERTA NICYMS 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA NICYMS 2026, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -618,7 +618,7 @@ function IndonesiaOffline() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    Sumber Informasi Kompetisi NICYMS 2025
+                    Sumber Informasi Kompetisi NICYMS 2026
                   </label>
                   <select
                     type="text"

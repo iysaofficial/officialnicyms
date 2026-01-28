@@ -45,7 +45,7 @@ function HomeIndo() {
                 FORMULIR REGISTRASI UNTUK PESERTA INDONESIA
               </h1>
               <h3 className="mx-auto mt-5 mb-2 text-sm md:text-lg lg:text-2xl">
-                Pilih Kategori Kompetisi untuk Registrasi NICYMS 2025
+                Pilih Kategori Kompetisi untuk Registrasi NICYMS 2026
               </h3>
             </div>
           </div>
