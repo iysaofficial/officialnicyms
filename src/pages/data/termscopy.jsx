@@ -5,6 +5,9 @@ export const indonesiaOnlineTerms = (
       berikut untuk Peserta Online:
     </h5>
       <li>
+        Dengan ini kami informasikan bahwa data yang telah diisikan oleh peserta tidak dapat diubah setelah batas waktu pembayaran berakhir. Sehubungan dengan hal tersebut, kami mohon agar setelah melakukan pengisian data, peserta memeriksa kembali LoA serta data registrasi untuk memastikan seluruh informasi yang tercantum telah benar dan sesuai.
+      </li>
+      <li>
         Peserta yang tidak mengumpulkan dokumen persyaratan (<em>full paper</em>, 
         <em> PowerPoint</em>) setelah dua kali pengingat akan dianggap mengundurkan diri 
         secara otomatis.
@@ -39,6 +42,9 @@ export const indonesiaOfflineTerms = (
       Sebelum melanjutkan, harap membaca dan menyetujui syarat & ketentuan
       berikut untuk Peserta Offline:
     </h5>
+      <li>
+        Dengan ini kami informasikan bahwa data yang telah diisikan oleh peserta tidak dapat diubah setelah batas waktu pembayaran berakhir. Sehubungan dengan hal tersebut, kami mohon agar setelah melakukan pengisian data, peserta memeriksa kembali LoA serta data registrasi untuk memastikan seluruh informasi yang tercantum telah benar dan sesuai.
+      </li>
       <li>
         Peserta yang tidak mengumpulkan berkas persyaratan (<em>full paper</em>,
         <em> poster</em>) setelah dua kali pengingat akan dianggap mengundurkan diri
