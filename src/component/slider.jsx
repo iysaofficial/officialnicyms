@@ -38,7 +38,7 @@ const Slider = () => {
                     </a>
                     {/* <a className="sl-readmore-btn2 mr-30">Tutup Registrasi</a> */}
                     <a
-                      href="https://drive.google.com/file/d/1hFH1XK4QLvsSjJ0TJzO47kmcOFzerMKS/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1S3GGp4n1J8jGWWW_yVFjslOFa4VgbXeT/view?usp=sharing"
                       target="_blank"
                       className="sl-get-started-btn2"
                       data-animation-in="lightSpeedIn"

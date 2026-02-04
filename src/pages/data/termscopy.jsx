@@ -5,12 +5,12 @@ export const indonesiaOnlineTerms = (
       berikut untuk Peserta Online:
     </h5>
       <li>
-        Peserta yang tidak mengumpulkan dokumen persyaratan (<em>extended abstract</em>, 
+        Peserta yang tidak mengumpulkan dokumen persyaratan (<em>full paper</em>, 
         <em> PowerPoint</em>) setelah dua kali pengingat akan dianggap mengundurkan diri 
         secara otomatis.
       </li>
       <li>
-        Peserta wajib menggunakan judul dan <em>extended abstract</em> yang sesuai dengan 
+        Peserta wajib menggunakan judul dan <em>full paper</em> yang sesuai dengan 
         kategori yang diikuti. (Peserta internasional, wajib menggunakan bahasa Inggris untuk 
         seluruh persyaratan dokumen yang dibutuhkan)
       </li>
@@ -40,18 +40,18 @@ export const indonesiaOfflineTerms = (
       berikut untuk Peserta Offline:
     </h5>
       <li>
-        Peserta yang tidak mengumpulkan berkas persyaratan (<em>extended abstract</em>,
+        Peserta yang tidak mengumpulkan berkas persyaratan (<em>full paper</em>,
         <em> poster</em>) setelah dua kali pengingat akan dianggap mengundurkan diri
         secara otomatis.
       </li>
       <li>
-        Peserta wajib menggunakan judul dan <em>extended abstract</em> yang sesuai dengan
+        Peserta wajib menggunakan judul dan <em>full paper</em> yang sesuai dengan
         kategori yang diikuti. (Peserta internasional, wajib menggunakan bahasa
         Inggris untuk seluruh <em>requirement</em>)
       </li>
       <li>
         Peserta diwajibkan untuk membuat poster berukuran A0, membawa produk,
-        dan juga <em>paper</em>/<em>extended abstract</em> (dalam bentuk <em>hard copy</em>) pada saat sesi
+        dan juga <em>paper</em>/<em>full paper</em> (dalam bentuk <em>hard copy</em>) pada saat sesi
         penjurian.
       </li>
       <li>
