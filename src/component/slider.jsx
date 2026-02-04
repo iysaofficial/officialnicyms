@@ -19,7 +19,7 @@ const Slider = () => {
                       data-animation-out="animate-out"
                     >
                       <br />
-                      NICYMS 2025
+                      NICYMS 2026
                     </h1>
                     <p
                       data-animation-in="fadeInUp"
