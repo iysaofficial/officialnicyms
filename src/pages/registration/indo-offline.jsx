@@ -664,10 +664,10 @@ function IndonesiaOffline() {
                   <label for="FILE" className="form-label">
                     Jika Anda mendapatkan pendaftaran gratis dari acara
                     sebelumnya atau kegiatan kunjungan sekolah sebelumnya, harap
-                    lampirkan bukti dokumentasi{" "}
+                    lampirkan bukti dokumentasi (Opsional){" "}
                   </label>
                   <input
-                    type="url"
+                    type="text"
                     id="FILE"
                     name="FILE"
                     className="form-control"
