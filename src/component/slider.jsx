@@ -19,7 +19,7 @@ const Slider = () => {
                       data-animation-out="animate-out"
                     >
                       <br />
-                      NICYMS 2026
+                      NICYMS
                     </h1>
                     <p
                       data-animation-in="fadeInUp"
@@ -34,7 +34,8 @@ const Slider = () => {
                       className="sl-readmore-btn2 mr-30"
                       data-animation-in="lightSpeedIn"
                       data-animation-out="animate-out"
-                      >Coming Soon !
+                    >
+                      Coming Soon 2027 !
                     </a>
                     {/* <a className="sl-readmore-btn2 mr-30">Tutup Registrasi</a> */}
                     {/* <a
