@@ -26,6 +26,7 @@ import HomeIndo from "./pages/registration/homeindo";
 import IndonesiaOnline from "./pages/registration/indo-online";
 import IndonesiaOffline from "./pages/registration/indo-offline";
 import ThankYouIndo from "./pages/registration/thankyouindo";
+import Sertifikat from "./pages/sertifikat";
 
 // import ContactPage from "./pages/contactpages";
 // import Faq from "./pages/faq";
@@ -115,6 +116,10 @@ const router = createBrowserRouter([
   {
     path: "/thankyouindo",
     element: <ThankYouIndo/>
+  },
+  {
+    path: "/sertifikat",
+    element: <Sertifikat />
   },
 ]);
 
