@@ -22,6 +22,9 @@ import Jenjangonl23 from "./pages/low/2023/jenjangonl23";
 import Kategori25 from "./pages/low/2025/kategori25";
 import Jenjangofl25 from "./pages/low/2025/jenjangofl25";
 import Jenjangonl25 from "./pages/low/2025/jenjangonl25";
+import Kategori26 from "./pages/low/2026/kategori26";
+import Jenjangofl26 from "./pages/low/2026/jenjangofl26";
+import Jenjangonl26 from "./pages/low/2026/jenjangonl26";
 import HomeIndo from "./pages/registration/homeindo";
 import IndonesiaOnline from "./pages/registration/indo-online";
 import IndonesiaOffline from "./pages/registration/indo-offline";
@@ -100,6 +103,18 @@ const router = createBrowserRouter([
   {
     path: "/jenjangonl25",
     element: <Jenjangonl25 />
+  },
+  {
+    path: "/kategori26",
+    element: <Kategori26 />
+  },
+  {
+    path: "/jenjangofl26",
+    element: <Jenjangofl26 />
+  },
+  {
+    path: "/jenjangonl26",
+    element: <Jenjangonl26 />
   },
   {
     path: "/homeindo",
