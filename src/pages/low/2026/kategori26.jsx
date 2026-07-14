@@ -52,9 +52,9 @@ const Kategori26 = () => {
             <a className="btn m-2" href="/jenjangofl26">
               NICYMS OFFLINE
             </a>
-            {/* <a className="btn m-2" href="/jenjangonl26">
+            <a className="btn m-2" href="/jenjangonl26">
               NICYMS ONLINE
-            </a> */}
+            </a>
           </div>
         </div>
       </section>
