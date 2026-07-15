@@ -158,6 +158,13 @@ function Navigation() {
                             </a>
                             <a
                               className="dropdown-item"
+                              href="https://drive.google.com/file/d/1W7LzV3LM9bt6m5rDpLP0UyRYugW98zdW/view?usp=sharing"
+                              target="_blank"
+                            >
+                              Press Release 2026
+                            </a>
+                            <a
+                              className="dropdown-item"
                               href="https://drive.google.com/file/d/1SfhR6kmDOjxCun-tW4_3qMTlykJ7WHA_/view?usp=sharing"
                               target="_blank"
                             >
