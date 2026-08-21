@@ -147,6 +147,65 @@ function Navigation() {
                             aria-haspopup="true"
                             aria-expanded="false"
                           >
+                            Buku Panduan
+                          </button>
+                          <div
+                            className="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a
+                              className="dropdown-item"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1S3GGp4n1J8jGWWW_yVFjslOFa4VgbXeT/view?usp=sharing"
+                            >
+                              2026
+                            </a>
+                            <a
+                              className="dropdown-item"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1hFH1XK4QLvsSjJ0TJzO47kmcOFzerMKS/view?usp=sharing"
+                            >
+                              2025
+                            </a>
+                            <a
+                              className="dropdown-item"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1Xa5xFmqVQWXQBupDPxX_T_eKeq2EiVla/view?usp=sharing"
+                            >
+                              2024
+                            </a>
+                            <a
+                              className="dropdown-item"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/1Lw0pl7h1w_b1EJ3N2KPdD2EkMabijU9g/view?usp=sharing"
+                            >
+                              2023
+                            </a>
+                            <a
+                              className="dropdown-item"
+                              target="_blank"
+                              href="https://drive.google.com/file/d/15dnEzLGiCQ5TLmxHpK41KHHT3lSlyxe3/view?usp=sharing"
+                            >
+                              2022
+                            </a>
+                            {/* <a
+                              className="dropdown-item"
+                              target="_blank"
+                              href="#"
+                            >
+                              2021
+                            </a> */}
+                          </div>
+                        </a>
+                        <a className="dropdown d-inline-block">
+                          <button
+                            className="btn btn-secondary dropdown-toggle customNav"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
                             Liputan Media
                           </button>
                           <div
