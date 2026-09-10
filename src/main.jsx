@@ -38,6 +38,11 @@ import CurationTahun from "./pages/curation/CurationTahun";
 
 const router = createBrowserRouter([
   {
+    path: "/kurasi/:tahun",
+    element: <CurationTahun />
+  },
+  // Alias: alamat /Curation/2026 sempat tayang dan mungkin sudah dibagikan.
+  {
     path: "/Curation/:tahun",
     element: <CurationTahun />
   },

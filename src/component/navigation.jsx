@@ -260,6 +260,13 @@ function Navigation() {
                             className="dropdown-menu"
                             aria-labelledby="dropdownMenuButton"
                           >
+                            {/*
+                              2026 dibaca langsung dari dasbor. Edisi sebelumnya tetap ke
+                              Drive: berkasnya tidak pernah masuk dasbor.
+                            */}
+                            <a className="dropdown-item" href="/kurasi/2026">
+                              2026
+                            </a>
                             <a
                               className="dropdown-item"
                               target="_blank"
@@ -339,33 +346,6 @@ function Navigation() {
                               target="_blank"
                             >
                               2022
-                            </a>
-                          </div>
-                        </a>
-                        {/*
-                          Curation baru ada untuk 2026, dan dilayani halaman
-                          sendiri yang membaca API dasbor. Dibuat sebagai
-                          dropdown meski isinya satu supaya edisi berikutnya
-                          cukup ditambah satu baris, sebentuk dengan menu
-                          lain di navbar ini.
-                        */}
-                        <a className="dropdown d-inline-block">
-                          <button
-                            className="btn btn-secondary dropdown-toggle customNav"
-                            type="button"
-                            id="dropdownMenuButton"
-                            data-bs-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                          >
-                            Curation
-                          </button>
-                          <div
-                            className="dropdown-menu"
-                            aria-labelledby="dropdownMenuButton"
-                          >
-                            <a className="dropdown-item" href="/Curation/2026">
-                              2026
                             </a>
                           </div>
                         </a>
