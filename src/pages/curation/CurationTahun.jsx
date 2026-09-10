@@ -24,6 +24,10 @@ import { ambilBerkasKurasi, berkasTampil } from "../../lib/kurasiApi";
  * hampir semuanya tidak memisahkan apa pun — ia cuma kata yang sama berulang.
  * Yang membedakan justru yang sedikit.
  */
+/*
+ * Berbahasa Indonesia karena NICYMS ajang NASIONAL — seluruh situsnya,
+ * termasuk menu "Kurasi" yang membuka halaman ini, berbahasa Indonesia.
+ */
 const CurationTahun = () => {
   const { tahun } = useParams();
   const [berkas, setBerkas] = useState(null);
@@ -88,13 +92,13 @@ const CurationTahun = () => {
       <Navigation />
       <section className="kurasi-section" ref={wadah}>
         <div className="kurasi-container">
-          <h1>Curation {tahun}</h1>
+          <h1>Kurasi {tahun}</h1>
 
-          {berkas === null && !galat && <p className="kurasi-kabar">Loading…</p>}
+          {berkas === null && !galat && <p className="kurasi-kabar">Memuat…</p>}
 
           {galat && (
             <p className="kurasi-kabar">
-              The document list could not be loaded. Please try again shortly.
+              Daftar dokumen gagal dimuat. Silakan coba lagi sebentar lagi.
             </p>
           )}
 
@@ -105,12 +109,12 @@ const CurationTahun = () => {
             untuk sesuatu yang memang belum ada akan menunggu selamanya.
           */}
           {berkas !== null && berkas.length === 0 && (
-            <p className="kurasi-kabar">No documents have been published for this edition yet.</p>
+            <p className="kurasi-kabar">Belum ada dokumen yang diterbitkan untuk edisi ini.</p>
           )}
 
           {berkas !== null && berkas.length > 0 && (
             <>
-              <p className="kurasi-ringkas">{berkas.length} documents</p>
+              <p className="kurasi-ringkas">{berkas.length} dokumen</p>
               <div className="kurasi-kartu-grid">
                 {berkas.map((f, i) => {
                   const Kartu = f.url ? "a" : "div";
