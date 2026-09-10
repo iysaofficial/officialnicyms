@@ -30,12 +30,17 @@ import IndonesiaOnline from "./pages/registration/indo-online";
 import IndonesiaOffline from "./pages/registration/indo-offline";
 import ThankYouIndo from "./pages/registration/thankyouindo";
 import Sertifikat from "./pages/sertifikat";
+import CurationTahun from "./pages/curation/CurationTahun";
 
 // import ContactPage from "./pages/contactpages";
 // import Faq from "./pages/faq";
 // import PosterPage from "./pages/posterlayoutpages";
 
 const router = createBrowserRouter([
+  {
+    path: "/Curation/:tahun",
+    element: <CurationTahun />
+  },
   {
     path: "/",
     element: <Home />

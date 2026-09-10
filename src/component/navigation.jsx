@@ -342,6 +342,33 @@ function Navigation() {
                             </a>
                           </div>
                         </a>
+                        {/*
+                          Curation baru ada untuk 2026, dan dilayani halaman
+                          sendiri yang membaca API dasbor. Dibuat sebagai
+                          dropdown meski isinya satu supaya edisi berikutnya
+                          cukup ditambah satu baris, sebentuk dengan menu
+                          lain di navbar ini.
+                        */}
+                        <a className="dropdown d-inline-block">
+                          <button
+                            className="btn btn-secondary dropdown-toggle customNav"
+                            type="button"
+                            id="dropdownMenuButton"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            Curation
+                          </button>
+                          <div
+                            className="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton"
+                          >
+                            <a className="dropdown-item" href="/Curation/2026">
+                              2026
+                            </a>
+                          </div>
+                        </a>
                         <a href="/faq" className="d-inline-block customNav">
                           FAQ
                         </a>
